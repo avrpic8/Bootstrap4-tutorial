@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'sahel';
+    src: url("assets/fonts/Sahel.woff") format('woff');
+}
+
+body {
+    font-family: sahel;
+    font-size: 2em;
+}
