@@ -24,54 +24,52 @@
 <body>
 <br>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-4 col-md-4 col-lg-12 text-primary-color">
-            <div class="bg-info">col-sm4 col-md-4</div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-12 text-primary-color">
-            <div class="bg-info">col-sm4 col-md-4</div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-12 text-primary-color">
-            <div class="bg-info">col-sm4 col-md-4</div>
-        </div>
-    </div>
-</div>
-<br>
-<!--offset columns-->
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-primary-color">
-            <div class="bg-success">col-sm4 col-md-4</div>
+    <br>
+    <!--offset columns-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 offset-lg-2">
+                <div class="bg-danger">col-sm-12 col-md-3 col-lg-4</div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 ">
+                <div class="bg-info"> col-sm-12 col-md-3 col-lg-4</div>
+            </div>
         </div>
     </div>
     <br>
-    <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-primary-color">
-            <div class="bg-success">col-sm4 col-md-4</div>
-        </div>
-
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-primary-color">
-            <div class="bg-success">col-sm4 col-md-4</div>
-        </div>
-    </div>
-    <br>
-    <div class="row justify-content-around">
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-primary-color">
-            <div class="bg-success">col-sm4 col-md-4</div>
-        </div>
-
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-primary-color">
-            <div class="bg-success">col-sm4 col-md-4</div>
+    <!--orders-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 order-last ">
+                <div class="bg-primary">col-sm-12 col-md-3 col-lg-4</div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 ">
+                <div class="bg-danger"> col-sm-12 col-md-3 col-lg-4</div>
+            </div>
         </div>
     </div>
     <br>
-    <div class="row justify-content-between">
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 text-primary-color">
-            <div class="bg-warning">col-sm4 col-md-4</div>
+    <!--margin utility-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 ml-auto">
+                <div class="bg-danger">margin utility</div>
+            </div>
+            <div class="col-md-4">
+                <div class="bg-secondary">margin utility</div>
+            </div>
         </div>
-
-        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-primary-color">
-            <div class="bg-warning">col-sm4 col-md-4</div>
+    </div>
+    <br>
+    <!--nesting-->
+    <div class="container">
+        <div class="row">
+           <div class="col-sm-12">
+               <div class="row">
+                   <div class="col-sm-6 bg-dark offset-sm-0">nesting</div>
+                   <div class="col-sm-6 bg-secondary">nesting</div>
+               </div>
+           </div>
         </div>
     </div>
 </div>
