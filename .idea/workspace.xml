@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab3576e4-1ee2-4e1f-823f-daccf7b982ad" name="Default Changelist" comment="grid_system part3 end">
+    <list default="true" id="ab3576e4-1ee2-4e1f-823f-daccf7b982ad" name="Default Changelist" comment="grid_system part4 end">
+      <change afterPath="$PROJECT_DIR$/template/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="grid_system_part3" />
+        <entry key="$PROJECT_DIR$" value="grid_system_part4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,12 +42,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/template" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -65,7 +70,8 @@
       <workItem from="1622380100021" duration="94000" />
       <workItem from="1622380204764" duration="38000" />
       <workItem from="1622438631619" duration="5081000" />
-      <workItem from="1622459516302" duration="4042000" />
+      <workItem from="1622459516302" duration="5801000" />
+      <workItem from="1622467046375" duration="3020000" />
     </task>
     <task id="LOCAL-00001" summary="grid part1 end">
       <created>1622377086822</created>
@@ -74,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622377086822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="grid_system part4 end">
+      <created>1622463704504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622463704504</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +109,8 @@
     <MESSAGE value="add jquery" />
     <MESSAGE value="grid part1 end" />
     <MESSAGE value="grid_system part3 end" />
-    <option name="LAST_COMMIT_MESSAGE" value="grid_system part3 end" />
+    <MESSAGE value="grid_system part4 end" />
+    <option name="LAST_COMMIT_MESSAGE" value="grid_system part4 end" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
