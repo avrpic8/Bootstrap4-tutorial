@@ -16,60 +16,87 @@
 
     <!-- javaScript import-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="../assets/js/bootstrap.js"></script>
     <script src="../assets/js/custom-js.js"></script>
 
 
 </head>
 <body>
-<br>
+<div class="container-fluid" style="margin-bottom: 20px">
+    <div class="row">
+        <div class="col-sm-12 bg-light">
+            <p class="text-center text-info text-header">آموزش فریمورک بوت استرپ ۴</p>
+        </div>
+    </div>
+</div>
+<!--alert box-->
 <div class="container">
-    <br>
-    <!--offset columns-->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-3 col-lg-4 offset-lg-2">
-                <div class="bg-danger">col-sm-12 col-md-3 col-lg-4</div>
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-primary">
+                پیغام خطا: <a class="alert-link" href="www.7learn.com">نام کاربری</a> خود را وارد کنید...
             </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-4 ">
-                <div class="bg-info"> col-sm-12 col-md-3 col-lg-4</div>
+            <div class="alert alert-danger">
+                پیغام خطا: نام کاربری خود را وارد کنید...
             </div>
-        </div>
-    </div>
-    <br>
-    <!--orders-->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 order-last ">
-                <div class="bg-primary">col-sm-12 col-md-3 col-lg-4</div>
+            <div class="alert alert-info">
+                پیغام خطا: نام کاربری خود را وارد کنید...
             </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 ">
-                <div class="bg-danger"> col-sm-12 col-md-3 col-lg-4</div>
+            <div class="alert alert-success">
+                پیغام خطا: نام کاربری خود را وارد کنید...
+            </div>
+            <div class="alert alert-warning">
+                پیغام خطا: نام کاربری خود را وارد کنید...
+            </div>
+            <div class="alert alert-secondary">
+                پیغام خطا: نام کاربری خود را وارد کنید...
             </div>
         </div>
     </div>
-    <br>
-    <!--margin utility-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 ml-auto">
-                <div class="bg-danger">margin utility</div>
-            </div>
-            <div class="col-md-4">
-                <div class="bg-secondary">margin utility</div>
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-secondary">
+                <h4 class="alert-heading">پیام خطا:</h4>
+                <p>نام کاربری خود را وارد کنید</p>
+                <p class="mb-1">نام کاربری خود را وارد کنید</p>
             </div>
         </div>
     </div>
-    <br>
-    <!--nesting-->
-    <div class="container">
-        <div class="row">
-           <div class="col-sm-12">
-               <div class="row">
-                   <div class="col-sm-6 bg-dark offset-sm-0">nesting</div>
-                   <div class="col-sm-6 bg-secondary">nesting</div>
-               </div>
-           </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-info fade show">
+                <span class="m-auto">نام کاربری خود را وارد کنید</span>
+                <button class="close" data-dismiss="alert">
+                    <span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--badges-->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <button type="button" class="btn btn-info">
+                تعداد کامنت ها
+                <span class="badge badge-warning">7</span>
+            </button>
+
+            <span class="badge badge-primary">متن شما</span>
+            <span class="badge badge-info">متن شما</span>
+            <span class="badge badge-secondary">متن شما</span>
+            <span class="badge badge-danger">متن شما</span>
+        </div>
+    </div>
+</div>
+<!--badges-->
+<div class="container mt-1">
+    <div class="row">
+        <div class="col-12">
+            <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="تعداد کامنت">
+                <span class="badge badge-success">10</span>
+            </button>
         </div>
     </div>
 </div>
