@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab3576e4-1ee2-4e1f-823f-daccf7b982ad" name="Default Changelist" comment="components-part2 end">
+    <list default="true" id="ab3576e4-1ee2-4e1f-823f-daccf7b982ad" name="Default Changelist" comment="components-part3 working">
+      <change afterPath="$PROJECT_DIR$/assets/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/custom-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/custom-js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,9 @@
       <workItem from="1622459516302" duration="5801000" />
       <workItem from="1622467046375" duration="3118000" />
       <workItem from="1622544995571" duration="3929000" />
-      <workItem from="1622631908507" duration="9663000" />
+      <workItem from="1622631908507" duration="9719000" />
+      <workItem from="1622704596686" duration="935000" />
+      <workItem from="1622707652935" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="grid part1 end">
       <created>1622377086822</created>
@@ -103,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622553789525</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="components-part3 working">
+      <created>1622641625561</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622641625561</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +139,8 @@
     <MESSAGE value="grid_system part4 end" />
     <MESSAGE value="grid_system part5 end" />
     <MESSAGE value="components-part2 end" />
-    <option name="LAST_COMMIT_MESSAGE" value="components-part2 end" />
+    <MESSAGE value="components-part3 working" />
+    <option name="LAST_COMMIT_MESSAGE" value="components-part3 working" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
