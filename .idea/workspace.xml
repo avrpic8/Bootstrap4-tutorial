@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab3576e4-1ee2-4e1f-823f-daccf7b982ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index.html" afterDir="false" />
+    <list default="true" id="ab3576e4-1ee2-4e1f-823f-daccf7b982ad" name="Default Changelist" comment="components-part3 end">
+      <change afterPath="$PROJECT_DIR$/assets/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/layout.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="components-part2" />
+        <entry key="$PROJECT_DIR$" value="components-part3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,6 +84,8 @@
       <workItem from="1622631908507" duration="9719000" />
       <workItem from="1622704596686" duration="935000" />
       <workItem from="1622707652935" duration="354000" />
+      <workItem from="1622882254742" duration="114000" />
+      <workItem from="1622990793803" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="grid part1 end">
       <created>1622377086822</created>
@@ -116,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622641625561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="components-part3 end">
+      <created>1622882303446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622882303446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +156,8 @@
     <MESSAGE value="grid_system part5 end" />
     <MESSAGE value="components-part2 end" />
     <MESSAGE value="components-part3 working" />
-    <option name="LAST_COMMIT_MESSAGE" value="components-part3 working" />
+    <MESSAGE value="components-part3 end" />
+    <option name="LAST_COMMIT_MESSAGE" value="components-part3 end" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
