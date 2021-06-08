@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab3576e4-1ee2-4e1f-823f-daccf7b982ad" name="Default Changelist" comment="components-part5 start">
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/input groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Sahel.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/sahel.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/forms.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>

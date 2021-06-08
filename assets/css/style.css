@@ -50,3 +50,11 @@ input[type="password"]{
     direction: rtl !important;
     text-align: right;
 }
+
+.carousel-item{
+    float: left;
+    margin-left: 0;
+}
+.carousel-control-next{
+    right: unset;
+}
