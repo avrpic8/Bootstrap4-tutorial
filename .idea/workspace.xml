@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab3576e4-1ee2-4e1f-823f-daccf7b982ad" name="Default Changelist" comment="components-part7 start">
-      <change afterPath="$PROJECT_DIR$/template/navs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/custom-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/custom-js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/border.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="components_part5" />
+        <entry key="$PROJECT_DIR$" value="utility_part1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
