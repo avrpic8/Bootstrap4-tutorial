@@ -14,7 +14,79 @@
     <link rel="stylesheet" href="../assets/css/bootstrap-rtl.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-reboot-rtl.css">
+    <link rel="stylesheet" href="../assets/css/jquery.simpleTicker.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+
+
+</head>
+<body>
+
+    <!--top header-->
+    <div class="container-fluid" id="custom-container-fluid">
+        <div class="cover-header position-absolute w-100"></div>
+
+        <div class="row  d-flex flex-wrap flex-sm-column flex-md-row justify-content-between py-1 top-menu">
+            <div class="col-sm-12 col-md-6 d-none d-sm-block ">
+                <div class="top-title">
+                    <div class="ticker pr-2" id="demo">
+                        <ul>
+                            <li>برگزاری دوره های مبتنی بر وب</li>
+                            <li>آموزش صفر تا صد طراحی وب</li>
+                            <li>آموزش زبان های سمت سرور</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 align-items-center">
+                <div class="social-icon d-flex justify-content-end">
+                    <a href=""><img src="../assets/images/facebook.png" alt=""></a>
+                    <a href=""><img src="../assets/images/google-plus.png" alt=""></a>
+                    <a href=""><img src="../assets/images/telegram.png" alt=""></a>
+                    <a href=""><img src="../assets/images/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
 
     <!-- javaScript import-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -26,9 +98,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
             integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
             crossorigin="anonymous"></script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/jquery.simpleTicker.js"></script>
     <script src="../assets/js/custom-js.js"></script>
 
-</head>
-<body>
 </body>
 </html>

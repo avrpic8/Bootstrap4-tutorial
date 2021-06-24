@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: 'sahel';
     src: url("../fonts/sahel.woff") format('woff');
@@ -12,43 +17,9 @@ a{
     text-decoration: none !important;
 }
 
-.text-primary-color{
-    color: #ffffff;
-}
-
-.text-header{
-    line-height: 0;
-    padding: 30px;
-    margin: 0px;
-}
-
-.card-body-text{
-    font-size: 1rem;
-}
-
-.card-more{
-
-    float: left;
-}
-
-.card .card-footer ul{
-    display: block;
-    float: right;
-    width: 100%;
-    margin: 0 auto;
-    list-style: none;
-}
-
-.card .card-footer ul li{
-    float: right;
-    margin-left: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"]{
-    direction: rtl !important;
-    text-align: right;
+ul{
+    margin: 0;
+    padding: 0;
 }
 
 .carousel-item{
@@ -57,4 +28,49 @@ input[type="password"]{
 }
 .carousel-control-next{
     right: unset;
+}
+
+/*project style*/
+
+
+/*top header*/
+#custom-container-fluid{
+    height:100vh;
+    background-size: cover;
+    background-image: url(../images/office.jpg);
+    position: relative;
+}
+
+.cover-header{
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.top-menu{
+    background: rgba(0,0,0,0.3);
+}
+
+.top-title{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ticker{
+    height: 32px!important;
+    font-size: 14px;
+}
+
+.ticker ul li{
+    top: 5px!important;
+}
+
+.social-icon img{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    cursor: pointer;
 }
