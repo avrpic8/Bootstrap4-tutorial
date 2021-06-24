@@ -9,26 +9,10 @@
 }
 
 body {
-    font-family: sahel;
+    font-family: sahel, serif;
     font-size: 20px;
 }
 
-a{
-    text-decoration: none !important;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-}
-
-.carousel-item{
-    float: left;
-    margin-left: 0;
-}
-.carousel-control-next{
-    right: unset;
-}
 
 /*project style*/
 
@@ -39,6 +23,7 @@ ul{
     background-size: cover;
     background-image: url(../images/office.jpg);
     position: relative;
+    margin: 0;
 }
 
 .cover-header{
@@ -73,4 +58,10 @@ ul{
     height: 24px;
     margin-left: 5px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .top-menu{
+        height: 70px;
+    }
 }
