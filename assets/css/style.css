@@ -13,6 +13,9 @@ body {
     font-size: 20px;
 }
 
+a,a:hover{
+    text-decoration: none!important;
+}
 
 /*project style*/
 
@@ -42,6 +45,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 .ticker{
@@ -60,8 +64,22 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px){
-    .top-menu{
-        height: 70px;
-    }
+/* navbar */
+.navbar-nav .nav-link{
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-link img{
+    width: 36px;
+    height: 36px;
+}
+
+#c-drop-menu{
+    width: 100%;
+    border-radius: 0;
+}
+
+.nav-sub-menu li a{
+    color: #4e555b;
+    font-size: 14px;
 }
