@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -11,36 +11,39 @@
 body {
     font-family: sahel, serif;
     font-size: 20px;
+    background-image: url(../images/bg-pattern.gif);
 }
 
-a,a:hover{
-    text-decoration: none!important;
+a, a:hover {
+    text-decoration: none !important;
 }
 
 /*project style*/
 
 
 /*top header*/
-#custom-container-fluid{
-    height:100vh;
+#custom-container-fluid {
+    height: 100%;
+    min-height: 100vh;
     background-size: cover;
     background-image: url(../images/office.jpg);
     position: relative;
     margin: 0;
 }
 
-.cover-header{
-    height: 100vh;
+.cover-header {
+    height: 100%;
+    min-height: 100vh;
     top: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.top-menu{
-    background: rgba(0,0,0,0.3);
+.top-menu {
+    background: rgba(0, 0, 0, 0.3);
 }
 
-.top-title{
+.top-title {
     width: 100%;
     position: absolute;
     top: 0;
@@ -48,16 +51,16 @@ a,a:hover{
     z-index: 1;
 }
 
-.ticker{
-    height: 32px!important;
+.ticker {
+    height: 32px !important;
     font-size: 14px;
 }
 
-.ticker ul li{
-    top: 5px!important;
+.ticker ul li {
+    top: 5px !important;
 }
 
-.social-icon img{
+.social-icon img {
     width: 24px;
     height: 24px;
     margin-left: 5px;
@@ -65,21 +68,74 @@ a,a:hover{
 }
 
 /* navbar */
-.navbar-nav .nav-link{
+.navbar-nav .nav-link {
     font-size: 1rem;
 }
 
-.navbar-nav .nav-link img{
+.navbar-nav .nav-link img {
     width: 36px;
     height: 36px;
 }
 
-#c-drop-menu{
+#c-drop-menu {
     width: 100%;
     border-radius: 0;
 }
 
-.nav-sub-menu li a{
+.nav-sub-menu li a {
     color: #4e555b;
     font-size: 14px;
 }
+
+.navbar-dark .navbar-nav .c-nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color: yellow;
+}
+
+/* hero header section */
+.banner-title{
+    font-size: 2.3rem;
+}
+
+i.icon{
+    color: #e7e7e7;
+}
+
+div.text-icon{
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+/* slider section */
+.carousel-item{
+    float: left;
+    margin-left: 0;
+}
+.carousel-control-next{
+    right: unset;
+}
+
+
+.card-body li{
+    font-size: 1rem;
+    padding: 5px;
+}
+.card-body li .info-date{
+    background: #6c757d;
+    font-size: 0.9rem;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .banner-title{
+        font-size: 2rem;
+    }
+}
+
+
+

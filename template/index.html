@@ -10,6 +10,7 @@
 
     <!-- css import-->
 
+    <link rel="stylesheet" href="../assets/css/all.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-rtl.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-reboot.css">
@@ -52,94 +53,213 @@
         <!--navbar -->
         <div class="row">
             <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark w-100 py-0">
-                    <a class="navbar-brand p-0" href="#">
-                        <img src="../assets/images/logo.png" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <a class="navbar-brand p-0" href="#">
+                    <img src="../assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item ">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    دوره های آموزشی
-                                </a>
-                                <div id="c-drop-menu" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <div class="container-fluid">
-                                        <div class="row w-100">
-                                            <div class="col-12 col-md-4">
-                                                <div class="alert alert-info">
-                                                    <p class="m-0">محبوب ترین مطالب</p>
-                                                </div>
-                                                <ul class="list-group p-0 nav-sub-menu">
-                                                    <li class="list-group-item border-0"><a href="#">بوتسترب قسمت ۵</a></li>
-                                                    <li class="list-group-item border-0"><a href="#">بوتسترب قسمت ۲</a></li>
-                                                    <li class="list-group-item border-0"><a href="#">بوتسترب قسمت ۴</a></li>
-                                                    <li class="list-group-item border-0"><a href="#">بوتسترب قسمت ۳</a></li>
-                                                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link c-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                دوره های آموزشی
+                            </a>
+                            <div id="c-drop-menu" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="container-fluid">
+                                    <div class="row w-100">
+                                        <div class="col-12 col-md-4">
+                                            <div class="alert alert-info">
+                                                <p class="m-0">محبوب ترین مطالب</p>
                                             </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="alert alert-info">
-                                                    <p class="m-0">دوره های آموزشی</p>
-                                                </div>
+                                            <ul class="list-group p-0 nav-sub-menu">
+                                                <li class="list-group-item border-0"><a href="#">بوتسترب قسمت ۵</a></li>
+                                                <li class="list-group-item border-0"><a href="#">بوتسترب قسمت ۲</a></li>
+                                                <li class="list-group-item border-0"><a href="#">بوتسترب قسمت ۴</a></li>
+                                                <li class="list-group-item border-0"><a href="#">بوتسترب قسمت ۳</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <div class="alert alert-info">
+                                                <p class="m-0">دوره های آموزشی</p>
                                             </div>
-                                            <div class="col-12 col-md-4">
-                                                <div class="alert alert-info">
-                                                    <p class="m-0">جدید ترین دوره های آموزشی</p>
-                                                </div>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <div class="alert alert-info">
+                                                <p class="m-0">جدید ترین دوره های آموزشی</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">تماس با ما <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">درباره ما</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link c-nav-link" href="#">تماس با ما <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link c-nav-link" href="#">درباره ما</a>
+                        </li>
+                    </ul>
+
+                    <div class="mr-auto">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link c-nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    <img class="rounded-circle" src="../assets/images/vahid.jpeg" alt="">
+                                    <span class="mr-1">پروفایل کاربر</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-                        <div class="mr-auto">
-                            <ul class="navbar-nav">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img class="rounded-circle" src="../assets/images/vahid.jpeg" alt="">
-                                        <span class="mr-1">پروفایل کاربر</span>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </li>
-                            </ul>
+        <!--hero header-->
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <h4 class="banner-title text-white text-center my-5">همگام با ما برای ورود به عرصه توسعه وب</h4>
+                <h5 class="text-white text-center">سون لرن برگزار کننده دوره های تخصصی برنامه نویسی</h5>
+
+                <!--search-form-->
+                <form action="" method="post" class="mt-5">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="جستجو کنید">
+                        <div class="input-group-prepend">
+                            <input type="submit" class="btn btn-info" value="بگرد">
                         </div>
                     </div>
-                </nav>
+                </form>
+            </div>
+        </div>
+
+        <!--login and registration-->
+        <div class="row justify-content-center mt-3">
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#" class="btn btn-success w-100 mb-2">ورود</a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2">
+                <a href="#" class="btn btn-primary w-100 mb-1">ثبت نام</a>
+            </div>
+        </div>
+
+        <!--features-->
+        <div class="container">
+            <div class="row text-center mt-5">
+                <div class="col-12 col-md-3 m-md-0">
+                    <i class="fa fa-hamburger fa-3x icon"></i>
+                    <h3 class="text-white mt-2">۵۰۰ نفر دانشجو</h3>
+                </div>
+                <div class="col-12 col-md-3 mt-5 m-md-0">
+                    <i class="fa fa-notes-medical fa-3x icon"></i>
+                    <h3 class="text-white mt-2">۱۲۰۰ مقاله آموزشی</h3>
+                </div>
+                <div class="col-12 col-md-3 mt-5 m-md-0">
+                    <i class="fa fa-map fa-3x icon"></i>
+                    <h3 class="text-white mt-2">۲۰ دوره آموزشی</h3>
+                </div>
+                <div class="col-12 col-md-3 mt-5 m-md-0">
+                    <i class="fa fa-clock fa-3x icon"></i>
+                    <h3 class="text-white mt-2">۱۵۰۰ دقیقه آموزش</h3>
+                </div>
+            </div>
         </div>
 
     </div>
 
+    <!--slider section-->
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-around">
 
+            <div class="col-12 col-lg-3 my-3 my-md-0">
+                <div class="card shadow-sm bg-info">
+                    <div class="card-header text-dark">
+                        <i class="fa fa-info-circle"></i>
+                        اطلاعیه ها
+                    </div>
+                    <div class="card-body text-dark">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 px-2 mt-2">پیش ثبت نام دوره php
+                                <span class="float-left rounded text-white p-2 info-date">۲۰ شهریور</span>
+                            </li>
+                            <li class="list-group-item border-0 px-2 mt-2">پیش ثبت نام دوره php
+                                <span class="float-left rounded text-white p-2 info-date">۲۰ شهریور</span>
+                            </li>
+                            <li class="list-group-item border-0 px-2 mt-2">پیش ثبت نام دوره php
+                                <span class="float-left rounded text-white p-2 info-date">۲۰ شهریور</span>
+                            </li>
+                            <li class="list-group-item border-0 px-2 mt-2">پیش ثبت نام دوره php
+                                <span class="float-left rounded text-white p-2 info-date">۲۰ شهریور</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-12 col-lg-7 px-0 py-0">
+                <div class="carousel slide carousel-fade shadow-sm" id="my-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#my-carousel" data-slide-to="1"></li>
+                        <li data-target="#my-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="../assets/images/slider1.jpg" alt="first slide">
+                            <div class="carousel-caption">
+                                <p>دوره آموزشی بوتسترب ۴</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/images/slider2.jpg" class="d-block w-100" alt="second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/images/slider3.jpg" class="d-block w-100" alt="third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#my-carousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#my-carousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <!-- javaScript import-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-            integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-            crossorigin="anonymous"></script>
-    <script src="../assets/js/jquery-3.6.0.min.js"></script>
-    <script src="../assets/js/jquery.simpleTicker.js"></script>
-    <script src="../assets/js/custom-js.js"></script>
+<!-- javaScript import-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+<script src="../assets/js/jquery-3.6.0.min.js"></script>
+<script src="../assets/js/jquery.simpleTicker.js"></script>
+<script src="../assets/js/custom-js.js"></script>
 
 </body>
 </html>
