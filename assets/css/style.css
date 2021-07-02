@@ -133,6 +133,13 @@ div.text-icon{
 
 .card .card-img-top{
     height: 160px;
+    transition: 0.2s;
+}
+
+.card .card-img-top:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
 }
 
 .card .card-label{
@@ -187,6 +194,40 @@ div.text-icon{
 
 .card-footer .post-info li i{
     color: #6c757d;
+}
+
+/* utility section (cards) */
+.panel{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 5px 10px;
+}
+
+.panel-header{
+    padding: 10px;
+    background: #d2e5f9;
+    font-size: 13px;
+}
+
+.panel .panel-title{
+    font-size: 16px;
+    border-bottom: 1px solid #efefef;
+    padding: 10px;
+    color: #4e555b;
+}
+
+.panel-body #comment-carousel .carousel-inner .carousel-item p{
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+p.user-comment{
+    height: 48px;
+    overflow-y: scroll;
+}
+
+.progress-title{
+    font-size: 15px;
 }
 
 @media screen and (max-width: 600px){
