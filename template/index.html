@@ -178,7 +178,7 @@
 </div>
 
 <!--slider section-->
-<div class="container mt-4">
+<div class="container background-container mt-4 py-2 shadow-sm">
     <div class="row justify-content-around">
 
         <div class="col-12 col-lg-4 my-3 my-md-0">
@@ -203,7 +203,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-lg-8 px-3 px-md-0">
+        <div class="col-12 col-lg-8 px-3 ">
             <div class="carousel slide carousel-fade shadow-sm" id="my-carousel" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
@@ -236,7 +236,30 @@
 </div>
 
 <!--main content section-->
-<div class="container mt-4">
+<div class="container background-container mt-4 py-2 shadow-sm">
+    <div class="row my-3">
+        <div class="col-12">
+            <div class="btn-group ml-2">
+                <button type="button" class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown">همه مطالب</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">همه مطالب</a>
+                    <a href="#" class="dropdown-item">دوره های آموزشی</a>
+                    <a href="#" class="dropdown-item">بانک کد</a>
+                    <a href="#" class="dropdown-item">مقالات آموزشی</a>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown">همه موضوعات</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">طراحی وب</a>
+                    <a href="#" class="dropdown-item">برنامه نویسی</a>
+                    <a href="#" class="dropdown-item">بانک کد</a>
+                    <a href="#" class="dropdown-item">مقالات آموزشی</a>
+                </div>
+            </div>
+            <button class="btn btn-outline-success float-left">فیلتر</button>
+        </div>
+    </div>
     <div class="row">
         <div class="col-12 col-md-4 col-lg-3 mb-2">
             <div class="card position-relative my-card">
@@ -391,10 +414,13 @@
             </div>
         </div>
     </div>
+    <div class="text-left mt-3">
+        <a href="#" class="btn btn-outline-success">همه مطالب</a>
+    </div>
 </div>
 
 <!--utility section-->
-<div class="container mt-4">
+<div class="container mt-4 p-0">
     <div class="row">
         <div class="col-12 col-md-4 mb-2">
             <div class="panel rounded shadow-sm">
@@ -475,7 +501,8 @@
                             </div>
                             <input type="text" class="form-control">
                         </div>
-                        <textarea type="text" class="form-control mb-1" name="" id="" cols="30"  placeholder="پیام شما"></textarea>
+                        <textarea type="text" class="form-control mb-1" name="" id="" cols="30"
+                                  placeholder="پیام شما"></textarea>
                         <input type="submit" class="btn btn-success btn-sm btn-block mb-1" value="ارسال پیام">
                     </form>
                 </div>
@@ -484,11 +511,32 @@
     </div>
 </div>
 
+<!--newsletter-->
+<div class="container-fluid mt-4" style="background: #0984e3">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <form action="" method="post" class="p-4">
+                <p class="text-white text-center"><i class="fa fa-bell ml-2"></i> برای اطلاع از آخرین آموزش ها در خبرنامه عضو شوید</p>
+                <div class="input-group order-1">
+                    <input type="text" class="form-control" placeholder="یک ایمیل معتبر وارد نمایید">
+                    <div class="input-group-prepend">
+                        <input type="submit" class="btn btn-warning rounded" value="اشتراک گذاری">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
-<br>
-<br>
-<br>
-<br>
+<!--footer section-->
+<div class="container-fluid bg-dark">
+    <div class="row">
+        <div class="col-12">
+            <div class="copy-write text-center text-white p-3 mt-4">تمام فعالیت های وب سایت ما حسب قوانین کشور ایران است
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- javaScript import-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

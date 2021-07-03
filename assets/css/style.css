@@ -11,7 +11,7 @@
 body {
     font-family: sahel, serif;
     font-size: 20px;
-    background-image: url(../images/bg-pattern.gif);
+    background: #efefef;
 }
 
 a, a:hover {
@@ -130,6 +130,10 @@ div.text-icon{
 }
 
 /* main content section (cards) */
+.background-container{
+    background: #ffffff;
+    border-radius: 3px;
+}
 
 .card .card-img-top{
     height: 160px;
@@ -198,6 +202,7 @@ div.text-icon{
 
 /* utility section (cards) */
 .panel{
+    background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
     padding: 5px 10px;
 }
@@ -229,6 +234,20 @@ p.user-comment{
 .progress-title{
     font-size: 15px;
 }
+
+/* features section (cards) */
+.panel{
+    border: 1px solid #efefef;
+    padding: 5px 10px;
+}
+
+.progress-title{
+    font-size: 15px;
+    display: block;
+}
+
+/* footer section */
+
 
 @media screen and (max-width: 600px){
     .banner-title{
